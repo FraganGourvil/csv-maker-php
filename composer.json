@@ -1,0 +1,29 @@
+{
+    "name": "ohooki/lf-scvmaker",
+    "type": "library",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hoooki",
+            "email": "hooki.kibo@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaFabrique\\CSVMaker\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LaFabrique\\CSVMaker\\Tests\\" : "tests/"
+        }
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.14"
+    }
+}
